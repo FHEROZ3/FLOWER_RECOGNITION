@@ -1,0 +1,44 @@
+
+# Ignore datasets
+*.zip
+*.tar.gz
+*.csv
+*.npy
+*.npz
+*.h5
+*.keras
+dataset/
+flowers/
+__pycache__/
+
+# Ignore Python bytecode and cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore configuration and secrets
+.env
+secrets.json
+credentials.json
